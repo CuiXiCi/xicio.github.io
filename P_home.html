@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="img/icon.ico">
+                <link rel="stylesheet" href="css/information.css">
+		<title>官方的主页</title>
+		<style type="text/css">
+			body {
+				background: url(img/hback.jpg) no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+		</style>
+    <script type="text/javascript">
+        var system ={};  
+           var p = navigator.platform;       
+           system.win = p.indexOf("Win") == 0;  
+           system.mac = p.indexOf("Mac") == 0;  
+           system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+           if(system.win||system.mac||system.xll){//如果是电脑跳转到
+                  window.location.href="home.html";
+           }
+    </script>
+	</head>
+	<body>
+		<div class="content">
+			<img src="img/head.jpg" alt="">
+			<div class="content_r clearfix">
+				<div class="content_l clearfix">
+					<h2>Hi~欢迎来到官方的主页</h2>
+					<p class="cc"><font color="blue"><a abbr title="唔...系个大人物嘞!">[认证:官方]</a></font>唔,来玩吗?<br>本站第1位创作者兼官方就是我啦!</p>
+					<br>
+					<p class="deeppink">人生一场大梦,梦中几度春秋。</p>
+					<p class="deeppink">Life is a big dream,in which<br>there are several years of spring and autumn.</p>
+					<div class="link">
+						<a href="..\官方的文章.html" class="dodgerblue" target="_blank">文章</a>
+						<a href="qq.html" class="deeppink_1" target="_blank">QQ</a>
+						<a href="wechat.html" class="magenta" target="_blank">微信</a>
+						<a href="..\..\index.html" class="orange" target="_blank">首页</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+
