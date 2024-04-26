@@ -1,0 +1,26 @@
+a:link {
+	color:white;
+	text-decoration:none;
+}
+a:visited {
+	color:white;
+	text-decoration:none;
+}
+.title {
+	color: white;
+}
+.time {
+	color: white;
+}
+.tac {
+	text-align: center;
+}
+video {
+	opacity:0.9;
+}
+a {
+	color: white;
+}
+span {
+	color: white;
+}
