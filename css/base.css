@@ -16,7 +16,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif !important;
-    line-height: 1.5;background-color: #fff;font-size: 14px;font-weight: 400;color: #4c4e4d;}
+    line-height: 1.5;font-size: 14px;background-color: #fff; font-weight: 400; color:#4c4e4d;}
 
 .clearfix:after {content:""; display:block; height:0; visibility:hidden; clear:both; }
 .clearfix {display:block;}
@@ -508,9 +508,9 @@ input:-ms-input-placeholder {color:#717678;}
 .article_title_line{padding:10px;border:1px solid #fff;}
 .article_title h2{color:#333;font-size:24px;padding:30px 20px;background:rgba(255,255,255,.8);text-align: center;}
 
-.article_text{margin:20px 0 40px 0;color:#666;text-align: justify;}
+.article_text{margin:20px 0 40px 0;color:#666;text-align: justify;line-height: 1.9;font-size: 16px;}
 .article_info{text-align: center;border-bottom: 1px dashed rgba(234,238,244,1);padding:0 0 5px 0;}
-.article_info span{margin:0 0 0 10px;color:#666;font-size:14px;}
+.article_info span{margin:0 0 0 10px;color:#666;font-size:24px;}
 
 .article_info span i{font-style: normal;margin:0 0 0 10px;}
 
