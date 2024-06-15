@@ -9,7 +9,7 @@ SYSTEMTIME sys;
 int main () {
 	//new
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),2);
-	SetConsoleTitle("xicios-prs_html bv1.2.0");
+	SetConsoleTitle("xicios-prs_html bv1.2.1");
 
 	//show
 	int ls=0,max=-1;
@@ -38,7 +38,7 @@ html:
 	fout<<"<!DOCTYPE html>"<<endl;
 	fout<<"<html>"<<endl;
 	fout<<"<head>"<<endl;
-	fout<<"    <meta charset=\"ANSI\">"<<endl;
+	fout<<"    <meta charset=\"UTF-8\">"<<endl;
 	fout<<"    <meta http-equiv=\"content-type\" content=\"text/html\">"<<endl;
 	fout<<"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\"/>"<<endl;
 	fout<<"    <meta content=\"IE=edge,chrome=1\" http-equiv=\"X-UA-Compatible\">"<<endl;
