@@ -14,11 +14,22 @@
     <link rel="shortcut icon" href="img/icon.ico">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="font-awesome.css">
+    <script type="text/javascript">
+        var system ={};  
+           var p = navigator.platform;       
+           system.win = p.indexOf("Win") == 0;  
+           system.mac = p.indexOf("Mac") == 0;  
+           system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+           if(system.win||system.mac||system.xll){//如果是电脑跳转到
+           }else{  //如果是手机,跳转到
+                  window.location.href="P_GS006.html";  
+           }
+    </script>
 </head>
 
 <body>
 
-<div class="article_title bg" style="background: url('img/GS011/00061.png')">
+<div class="article_title bg" style="background: url('img/GS011/00001.png')">
     <div class="content_container">
         <div class="article_title_line">
             <h2>GS011-纳西妲cos_2</h2>
