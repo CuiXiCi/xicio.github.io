@@ -15,11 +15,13 @@
            system.mac = p.indexOf("Mac") == 0;  
            system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
            if(system.win||system.mac||system.xll){//如果是电脑跳转到
-                  window.location.href="Error.html";
+           }else{  //如果是手机,跳转到
+                  window.location.href="phone.html";  
            }
     </script>
+
     <body>
-        <body background="./pback.jpg" style=" background-repeat:no-repeat ; background-size:100% 100%; background-attachment: fixed;">
+        <body background="./back.jpg" style=" background-repeat:no-repeat ; background-size:100% 100%; background-attachment: fixed;">
             <audio autoplay="autoplay" loop="loop" preload="auto"
                    src="./bgm.mp3">
             </audio>
@@ -32,7 +34,7 @@
                     <li><span id="seconds"></span>Seconds</li>
                     <li><span id="milliseconds"></span>Milliseconds</li>
                 </ul>
-                <h3> It was (not) the best of times, it was the worst of times.——《双城记?》</h3>
+                <h3> It was (not) the best of times, it was the worst of times.——《双城记?》 </h3>
             </div>
             <script src="./script.js"></script>
         </body>
